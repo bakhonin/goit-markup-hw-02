@@ -1,0 +1,91 @@
+/* основной цвет фона #ffffff */
+/* вторичный цвет фона #E7E9FC */
+/* фон подвала #2E2F42 */
+/* hover,focus #404BBF */
+
+/* основной цвет текста #434455 */
+/* акцент #E7E9FC */
+/* цвет заголовка #2E2F42 */
+/* цвет лого*/
+
+:root {
+    --primery-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #E7E9FC;
+    --background-color: #ffffff;
+    --secondary-background-color: #E7E9FC;
+    --background-color-footer: #2E2F42;
+    --hover-focus-color: #404BBF;
+    --logo-color: #4D5AE5;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primery-text-color);
+}
+
+/* Logo */
+
+.logo {color: var(--logo-color);}
+.logo:hover,
+.logo:focus {
+    color: var(--hover-focus-color);
+}
+/* Site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--hover-focus-color);
+    }
+    
+.site-nav .link.current {
+    color: var(--hover-focus-color);
+}
+
+/* Contacts */
+
+.contacts .info {
+    color: var(--primery-text-color);
+}
+.contacts .info:hover,
+.contacts .info:focus {
+    color: var(--hover-focus-color);
+}
+
+/* Button */
+
+.button {
+    color: var(--accent-color);
+    background-color: #4D5AE5;
+}
+.button:hover,
+.button:focus {
+    background-color: var(--hover-focus-color);  
+}
+.button { cursor: pointer; }
+
+/* Section portfolio */
+
+.section-portfolio {
+    background-color: var(--secondary-background-color);
+}
+
+/* Section-title */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+
+footer {background-color: var(--background-color-footer);}
+.footer-accent {
+    color: var(--accent-color);
+}

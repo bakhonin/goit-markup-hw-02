@@ -63,10 +63,36 @@ letter-spacing: 0.02em;
 
 .logo-header {
     color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo-header:hover,
+.logo-header:focus {
+    color: var(--hover-focus-color);
 }
 
 .logo-footer {
     color: #F4F4FD;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--hover-focus-color);
 }
 /* Site-nav */
 

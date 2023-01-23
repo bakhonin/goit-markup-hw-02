@@ -56,11 +56,6 @@ letter-spacing: 0.02em;
     align-items: center;
     text-transform: uppercase;
 }
-.logo:hover,
-.logo:focus {
-    color: var(--hover-focus-color);
-}
-
 .logo-header {
     color: #2E2F42;
     font-family: Raleway, sans-serif;
@@ -73,11 +68,6 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
-.logo-header:hover,
-.logo-header:focus {
-    color: var(--hover-focus-color);
-}
-
 .logo-footer {
     color: #F4F4FD;
     font-family: Raleway, sans-serif;
@@ -88,11 +78,6 @@ letter-spacing: 0.02em;
     display: flex;
     align-items: center;
     text-transform: uppercase;
-}
-
-.logo-footer:hover,
-.logo-footer:focus {
-    color: var(--hover-focus-color);
 }
 /* Site-nav */
 

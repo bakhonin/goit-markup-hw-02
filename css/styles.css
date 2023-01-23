@@ -4,14 +4,12 @@
 /* hover,focus #404BBF */
 
 /* основной цвет текста #434455 */
-/* акцент #E7E9FC */
 /* цвет заголовка #2E2F42 */
 /* цвет лого*/
 
 :root {
     --primery-text-color: #434455;
     --title-text-color: #2E2F42;
-    --accent-color: #E7E9FC;
     --primery-background-color: #ffffff;
     --secondary-background-color: #E7E9FC;
     --background-footer-color: #2E2F42;
@@ -36,8 +34,7 @@ body {
 /* primery-text */
 
 .primery-text {
-    font-family: 'Roboto';
-font-style: normal;
+font-family: 'Roboto',sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -82,8 +79,8 @@ letter-spacing: 0.02em;
 /* Site-nav */
 
 .site-nav .link {
+    font-family: 'Roboto',sans-serif;
     color: var(--title-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.3;
@@ -98,6 +95,7 @@ letter-spacing: 0.02em;
 /* Contacts */
 
 .contacts .info {
+    font-family: 'Roboto',sans-serif;
     color: var(--primery-text-color);
     font-style: normal;
     font-weight: 400;
@@ -118,8 +116,7 @@ letter-spacing: 0.02em;
 }
 .hero-title {
     color: #ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -128,6 +125,7 @@ letter-spacing: 0.02em;
 }
 
 .hero-button {
+    font-family: 'Roboto',sans-serif;
     color: #4D5AE5;
     background-color: var(--primery-background-color);
     font-family: 'Roboto';
@@ -149,9 +147,8 @@ letter-spacing: 0.02em;
 /* Page-title */
 
 .page-title {
+    font-family: 'Roboto',sans-serif;
     color: var(--title-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
@@ -165,10 +162,9 @@ letter-spacing: 0.02em;
 /* Button */
 
 .button {
+    font-family: 'Roboto',sans-serif;
     color: #4D5AE5;
     background-color: var(--primery-background-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -191,6 +187,7 @@ letter-spacing: 0.02em;
     background-color: var(--primery-background-color);
 }
 .section-portfolio {
+    font-family: 'Roboto',sans-serif;
     color: var(--primery-text-color);
     font-size: 16px;
     line-height: 1.5px;
@@ -199,6 +196,7 @@ letter-spacing: 0.02em;
 /* Title */
 
 .section-title {
+    font-family: 'Roboto',sans-serif;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -209,7 +207,8 @@ letter-spacing: 0.02em;
 /* Footer */
 
 footer {background-color: var(--background-footer-color);}
-.footer-accent {
+.footer-text {
+    font-family: 'Roboto',sans-serif;
     color: #E7E9FC;
     font-size: 16px;
     line-height: 1.5;
